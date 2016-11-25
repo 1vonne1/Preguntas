@@ -1,4 +1,5 @@
 Este es un archivo de texto, y contiene las preguntas realizadas en la presentación
+
 A. Tema: Adempiere
 1.- ¿Cuántos módulos tiene un programa empresarial para recibir el calificativo de ERP? (indique explictamente los nombres de módulos o área funcional que apoyan estos módulos).
 Respuesta:
@@ -46,7 +47,7 @@ ADempiere es un software sin costo de licencia, sin pagos por las actualizacione
 El desarrollo de Adempiere se financia mediante una comunidad la cual se compone de diferentes grupos los que interactúan en un blog, exponiendo sus dudas y necesidades, por lo que el desarrollo del ERP se realiza en conjunto. Lo anterior le da la propiedad de ser gratuito.
 Observación (profesor): Hay algún requisito para ser parte de la comunidad que participa en el desarrollo de Adempiere?
 
-
+---------------------------------------------------------------------
 B. Tema: Apache OfBiz
 1.- ¿Qué es Apache? (Algunos ejemplos)
 Respuesta:
@@ -79,7 +80,7 @@ Ejemplos:
 uniper Music, Soundesign, Messer Group, Steiner Sports, Silver Wings Plus Club, American Heart Association: Grocery List Builder y Action Envelope
 Observación (profesor): Sería bueno describor un poco estas empresas y en lo posible alguna clasicación de ellas.
 
-
+---------------------------------------------------------------------
 C. Tema: ERP AbanQ
 1.- ¿Cuáles son los módulos de AbanQ? (indique una descripción)
 Repuesta: 
@@ -140,7 +141,7 @@ AbanQ fue utilizado en Porto Cristo, Mallorca, por el hotel Monteverde, en el a�
 Observación (profesor): ¿son experiencias nacionales? ¿hay alguna valoración del uso? (ya sea para los ejemplos o bien otro usurios de esta plataforma).
 
 
-
+---------------------------------------------------------------------
 D. Tema: GNUCASH
 1.- ¿Qué es XML? y ¿cómo lo usa (o implementa*) GNUCAHS?
 Respuesta:
@@ -166,7 +167,7 @@ GNUCash permite la sincronización para mantener una información común entre l
 Para llevar la información desde Android a la versión escritorio, se puede exportar el archivo .ofx desde la visión general de cuentas (con el botón Menú). Para esto se recomienda exportarlo a alguna aplicación que tenga sincronización automática con PC (como Dropbox). Luego basta con importar el archivo .ofx desde GNUCash en PC desde Archivo->Importar-> Importar OFX/QFX
 
 
-
+---------------------------------------------------------------------
 E. Tema: ODOO
 1.- Costos asociados a la implantación de GNUCASH?
 Respuesta: GnuCash es un sistema de finanzas personal en software libre, la implantación de un módulo de este tipo en Odoo oscila entre 4-8 USD/usuario/mes.
@@ -197,6 +198,8 @@ Algunas empresas en Chile:
 - Solintegra, Soluciones Integrales: http://www.solintegra.cl/ 
 Observación (profesor): Seria bueno saber los costos y tipos de consultoria que ofrecen empresas como estas que indican.
 
+
+---------------------------------------------------------------------
 F. Tema: OpenBravo
 1.- ¿Cuáles son los costos asociados a versiones Profesional y Enterprinse?
 2.- En que consiste ep principio Vista-Controlador, y como se relaciona este principio con la arquitectura de OpenBravo
