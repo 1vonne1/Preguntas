@@ -3,20 +3,49 @@ A. Tema: Adempiere
 1.- ¿Cuántos módulos tiene un programa empresarial para recibir el calificativo de ERP? (indique explictamente los nombres de módulos o área funcional que apoyan estos módulos).
 Respuesta:
 Básicamente 4 módulos: RRHH, Manufactura y Producción, Finanzas y Contabilidad, Ventas y MKT
-
 Observación (profesor): Para el caso de Adempiere ¿hay más modulos que los mencionados como básicos en un ERP? si la respuesta es SI ¿cuáles son esos módulos.
 
 
 2.- Que significa "Escalable" en el ámbito de sistemas de información.
 Respuesta:
 Es la propiedad de un sistema para aumentar su capacidad de trabajo o de tamaño, manteniendo sus estándares de calidad.
-
 Obervación (profesor): En lenguage menos académico se puede decir que "crecedorcito"
 
 3.- Ejemplos concretos de uso de Adempiere
+Respuesta:
+Defensoría Penal Pública de Chile
+Sistema de agua y alcantarillado de Chile
+Distribuidora del Mueble (Distribuidor)
+Laboratorios Pail (Manufactura)
+Observación (profesor): sería bueno además de indicar quian ha usado estas plataformas un poco de coentarios de la experiencia.
+
 4.- Plataforma de HW necesaria (¿Un servidor dedicado?)
+Respuesta:
+Cualquiera de los dos, ya que se puede pagar un hosting. (Servidor compartido: Toda la info a un servidor/ Servidor dedicado: Especifico para la organización) 
+Respecto al HW:
+Procesador Pentium 4 o superior
+2 Gb de memoria RAM
+Monitor SVGA color
+Unidad de CD ROM
+Espacio libre en el disco duro de 5 Gb o más
+
+Observación (profesor): Asumo que lo indicado es para el servidor, en este escenario si el servidor es dedicado, y hay multiples clientes/usuarios del sistema ¿es suficiente 2Gb de memoria?, respecto del espacio en disco los 5Gb son para la instalación o ¿explotación? ¿qué pasa si se genera mucha información de un área que ocupe módulos del ERP?
+
 5.- ¿Cómo clasificar las empresas que usan Adempiere?
-6.- Al ser una soloción free ¿cómo se financia su desarrollo?
+Respuesta:
+Adempiere, clasifica a las organizaciones, de acuerdo al número de empleados que posee:
+Empresa grande: más de 200 trabajadores 
+Pyme: 5-199 trabajadores  
+Micro: (hasta cuatro trabajadores) 
+Lo anterior es respaldado por la SOFOFA.
+Observación (profesor): De los ejemplos que dio en la pregunta 3 ¿cómo clasificaría las empresas/organizaciones que están usando esta tecnología en Chile?
+
+6.- Al ser una solución free ¿cómo se financia su desarrollo?
+Respuesta:
+ADempiere es un software sin costo de licencia, sin pagos por las actualizaciones. En el caso, de requerir el desarrollo del sistema, posee los menores costos asociados.
+El desarrollo de Adempiere se financia mediante una comunidad la cual se compone de diferentes grupos los que interactúan en un blog, exponiendo sus dudas y necesidades, por lo que el desarrollo del ERP se realiza en conjunto. Lo anterior le da la propiedad de ser gratuito.
+Observación (profesor): Hay algún requisito para ser parte de la comunidad que participa en el desarrollo de Adempiere?
+
 
 B. Tema: Apache OfBiz
 1.- ¿Qué es Apache? (Algunos ejemplos)
