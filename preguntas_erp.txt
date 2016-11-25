@@ -1,7 +1,18 @@
 Este es un archivo de texto, y contiene las preguntas realizadas en la presentación
 A. Tema: Adempiere
 1.- ¿Cuántos módulos tiene un programa empresarial para recibir el calificativo de ERP? (indique explictamente los nombres de módulos o área funcional que apoyan estos módulos).
+Respuesta:
+Básicamente 4 módulos: RRHH, Manufactura y Producción, Finanzas y Contabilidad, Ventas y MKT
+
+Observación (profesor): Para el caso de Adempiere ¿hay más modulos que los mencionados como básicos en un ERP? si la respuesta es SI ¿cuáles son esos módulos.
+
+
 2.- Que significa "Escalable" en el ámbito de sistemas de información.
+Respuesta:
+Es la propiedad de un sistema para aumentar su capacidad de trabajo o de tamaño, manteniendo sus estándares de calidad.
+
+Obervación (profesor): En lenguage menos académico se puede decir que "crecedorcito"
+
 3.- Ejemplos concretos de uso de Adempiere
 4.- Plataforma de HW necesaria (¿Un servidor dedicado?)
 5.- ¿Cómo clasificar las empresas que usan Adempiere?
@@ -16,10 +27,64 @@ B. Tema: Apache OfBiz
 
 C. Tema: ERP AbanQ
 1.- ¿Cuáles son los módulos de AbanQ? (indique una descripción)
+Repuesta: 
+Las principales funciones del sistema se dividen en módulos, los cuales se instalan sobre el programa básico. Actualmente el software cuenta con los siguientes módulos integrados:
+1.	Facturación: permite el funcionamiento de la empresa gestionando clientes, proveedores, stock de productos, emisión de facturas.
+2.	Gestión de tesorería: permite llevar una organizada estructura de todas las facturas y conocer el estado en que se encuentran y a quién corresponden rápidamente
+3.	Contabilidad financiera: Facilita el control de las finanzas, control de gastos, entrada y salida de dinero, además de emitir informes de facturas emitidas y recibidas. También es de utilidad para proporcionar las pérdidas o ganancias de las pymes en un periodo determinado.
+4.	Talleres de automoción: este módulo complementario está diseñado para la gestión de empresas dedicadas a la reparación, venta y mantenimiento de vehículos
+5.	Formación: permite proporcionar las relaciones jerárquicas entre empleados y permite un almacenamiento efectivo y una correcta administración de los datos del personal.
+6.	Terminal punto de venta: permite gestionar las ventas de la empresa, donde a los artículos se les asigna una tarifa, asociando la facturación de los distintos clientes y proporcionando distintas formas de pago.
+7.	Control de producción (MRP):  permite realizar un completo seguimiento a los procesos de fabricación de producción en series, además de proporcionar los costos asociados a la producción. 
+8.	Gestión de campaña y acciones clientes (CRM): gestiona todas las funcionalidades relacionadas con clientes y proveedores de la organización, de esta manera coordinar las relaciones con estos, proporcionando información de cada uno de los movimientos asociados.
+9.	Gestión de almacenes: Este módulo está relacionado con los temas de stocks, artículos, tarifas, transferencias y datos de compra. Es de suma utilidad para gestionar los movimientos de stocks en el almacén, relacionándose estrechamente con el módulo de facturación y con el de ventas.
+10.	Soporte para códigos de barras: permite la introducción y visualización gráfica de códigos de barras de los distintos productos de la empresa.
+Cabe destacar que las dos áreas principales del software están disponibles de manera gratuita, estas son Facturación y Contabilidad Financiera.
+
 2.- Versiones disponibles de AbanQ. ¿Cuántas hay?, ¿Costos?
+Respuesta:
+•	Versión 2.2 se liberó en junio de 2007.
+•	Versión 2.3 se liberó en noviembre de 2008.
+•	Versión 2.4 se liberó en octubre de 2014.
+Descargar y utilizar libremente cada una de las versiones no tiene costo asociado.
+
+Observación (profesor): ¿Hay versiones en desarrollo que estén en status de beta?
+
 3.- Para la versión de pago ¿cómo son los costos asociados?
+Respuesta:
+Los costos asociados para la versión pagada son por módulos instalados que tienen un valor de 300 a 2000 euros ($200.000 a $1.500.000 aproximadamente) dependiendo de las necesidades de la empresa. También se pueden agregar extensiones a los módulos gratis y tiene un costo de 58 a 438 euros ($40.000 a $300.000 aproximadamente).
+
 4.- Para la elección del motor de BD ¿qué criterio usar? ¿alternativas de motores?
+Respuesta:
+Se proponen los siguientes criterios para la elección de un motor de BD:
+1.	Entender los requerimientos actuales pero pensados en el futuro: Se debe entender los requerimientos funcionales y no funcionales y escoger la base de datos que mejor se ajuste a estos requerimientos. Los requerimientos pueden abarcar lo siguiente:
+•	Cantidad de datos y tipo de datos (texto, binarios, espacial u otros tipos específicos).
+•	Número simultaneo de usuarios.
+•	Disponibilidad: cuánto tiempo puede permitir tener de baja la base de datos.
+•	Escalabilidad: qué hará cuando la cantidad de datos y el número de usuarios aumente.
+•	Seguridad: cuanto necesitará de características como seguridad e encriptación de datos, administración de usuarios, privilegios.
+•	Manejo y administración: cuan amigable quiere que sea la administración de la BD.
+•	Que otras características quiere obtener de la BD.
+
+2.	Tomar en cuenta experiencias previas: Debe considerarse sus experiencias previas (si es que las posee) y las habilidades desarrolladas trabajando con bases de datos. Elegir una base de datos conocida en la cual se posee experiencia, reduce tiempo al no tener que familiarizarse nuevamente con la BD y también reduce costos en algunos casos como por ejemplo cuando se desea invertir en un curso para aprender el manejo de cierta BD.
+
+
+3.	Considerar el valor del soporte y costos de licencia de cada base de datos.
+
+4.	Considerar los requisitos del sistema operativo, ya que algunos motores de base datos requieren sistemas operativos específicos.
+	Se presentan las siguientes alternativas de motores de base de datos compatibles con el software:
+1.	PostgreSQL
+2.	MySQL
+3.	SQLite
+
+Observación (profesor): ¿Para el caso de los motores hay algún criterio de elección de uno u otro?
+
 5.- Ejemplos de uso de AbanQ
+Respuesta:
+AbanQ fue utilizado en Porto Cristo, Mallorca, por el hotel Monteverde, en el año 2010, puesto que necesitaba una solución para gestionar correctamente toda la información generada, las tareas administrativas, la contabilidad diaria y la atención al cliente. Este ERP fue adaptado según las necesidades mencionados anteriormente añadiéndose funcionalidades.
+Observación (profesor): ¿son experiencias nacionales? ¿hay alguna valoración del uso? (ya sea para los ejemplos o bien otro usurios de esta plataforma).
+
+
 
 D. Tema: GNUCASH
 1.- ¿Qué es XML? y ¿cómo lo usa (o implementa*) GNUCAHS?
@@ -28,11 +93,39 @@ D. Tema: GNUCASH
 4.- ¿En distintas instalaciones como se realiza una sincronización?
 
 
+
+
+
+
 E. Tema: ODOO
 1.- Costos asociados a la implantación de GNUCASH?
+Respuesta: GnuCash es un sistema de finanzas personal en software libre, la implantación de un módulo de este tipo en Odoo oscila entre 4-8 USD/usuario/mes.
 2.- Requisitos de HW y SW?
+Respuesta:
+Hardware; Cualquier servidor que pueda garantizar la conexión óptima de los usuarios a los servicios de Odoo.
+Observación (profesor): Para todos los grupos es importante que tengan claridad con el concepto de servidor, y su diferencia con un "computador" de escritorio o de laboratorio. La respuesta desde el punto físico es que un servidor es una máquina que entre otras características debe poder estar encendida de manera permanente, algo parecido ocurre con los acceso a discos, etc. 
+
+Software; Plataformas en las que se puede instalar: Windows (Igual o posterior a Windows XP), Linux o MacOS X. Es necesario tener instalado un navegador web y una base de datos SQL gestionada por el SGBD PostgreSQL. Esto último se cumple al instalar el software en el servidor, ya que va incluido en la instalación. 
+
+
 3.- ¿Quién es responsable de una instalación?
+Respuesta: Dependiendo como sea la organización, si tienen departamento de informática es el encargado de la actualización de los programas y nuevos sistemas. En caso contrario tan solo es necesario leer el manual de uso para realizar una buena descarga y adquisición del software.
+Observación (profesor): ¿qué pasa con una micro empresa?
+
 4.- ¿Hay proveedores de servicio de personalización y/o mantención de GNUCASH?
+Respuesta:
+Una de las grandes ventajas de Odoo, al tratarse de una herramienta de software libre,  es que desaparecen los costos de licencia. Por lo tanto, los costos fijos de la aplicación disminuyen considerablemente. Pero, ¿Quiere decir esto que es gratis? La respuesta es NO.
+Tanto la instalación de los módulos necesarios como su correcta configuración de acuerdo a las necesidades de la empresa son tareas  complicadas. Además, en muchas ocasiones las empresas necesitan incluir o excluir procesos más allá de los que contemplan los estándares de la herramienta. Estos requerimientos hacen indispensable contar con personal especializado en el software Odoo.
+
+El costo de implantación de Odoo se reduce a:
+- Hosting necesario para alojar la herramienta en la nube.
+- Servicios profesionales necesarios para su puesta en marcha y mantenimiento.
+Los servicios de personalización y/o mantención de Odoo se realizan por un foro en la página oficial de ésta. Sin embargo en Chile existen empresas independientes que ofrecen servicios de soporte, mantención, implementación, capacitación. El costo de los servicios son reservados.
+Algunas empresas en Chile:
+- Odoo Expertos en Chile: http://www.odoo.audox.cl/
+- E&RR Consulting: http://www.errconsulting.cl/
+- Solintegra, Soluciones Integrales: http://www.solintegra.cl/ 
+Observación (profesor): Seria bueno saber los costos y tipos de consultoria que ofrecen empresas como estas que indican.
 
 F. Tema: OpenBravo
 1.- ¿Cuáles son los costos asociados a versiones Profesional y Enterprinse?
