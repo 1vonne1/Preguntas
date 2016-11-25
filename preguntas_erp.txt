@@ -49,10 +49,36 @@ Observación (profesor): Hay algún requisito para ser parte de la comunidad que
 
 B. Tema: Apache OfBiz
 1.- ¿Qué es Apache? (Algunos ejemplos)
+Respuesta:
+Es una fundación de soporte de software no lucrativa, que se dedica a crear software de códigos abiertos. También posee un servidor el cual es http Apache. Otros ejemplos de software de código abierto de Apache, Son :Apache open office, y apache of biz.
+
+Observación profesor: En el mundo "computin" cuando se habla de Apache, se entiende por lo general una referencia al "servidor Web"
+
 2.- ¿En qué (o cómo) ayuda una solución tipo ObBiz a una iniciativa de e-Commerce?
+Respuesta:
+Posee integración con sistemas de pago lo que facilita a la empresa poder realizar ventas por internet, como por ejemplo Paypal, lo que permite realizar transacciones de forma confiable.
+
+Observación profesor: Esperaba una respeusta más completa, lo que indica se puede extender un poco más y abarcando otras aristas de e-Commenrce.
+
+
 3.- ¿Que tipo de HW necesita uan intalación y explotación de OfBiz?
+Respuesta:
+Sin respuesta aún :-(
+
 4.- ¿Qué se entiende por framework? ¿Qué compone en Framework OfBiz?
+Respuesta:
+Un framework  es una estructura de soporte, un modelo de datos común y procesos de negocios. Todas las aplicaciones se construyen sobre una arquitectura común usando datos comunes y componentes de lógica y procesos.
+OFBiz se puede considerar un framework Java para desarrollar soluciones ERP a medida que incorpora un motor de workflow, arquitectura orientada a servicios (SOA), independencia de la base de datos y cumplimiento de estándares.
+
+Observación profesor:
+Un Framework (informática) es un entorno o ambiente de trabajo para desarrollo; dependiendo del lenguaje normalmente integra componentes que facilitan el desarrollo de aplicaciones como el soporte de programa, bibliotecas, plantillas y más. Típicamente, puede incluir soporte de programas, bibliotecas, y un lenguaje interpretado, entre otras herramientas, para así ayudar a desarrollar y unir los diferentes componentes de un proyecto. Ejemplos de framework son Struts, Django, etc.
+
+
 5.- Ejemplos de uso de OfBiz (empresas), y experiencias
+Ejemplos:
+uniper Music, Soundesign, Messer Group, Steiner Sports, Silver Wings Plus Club, American Heart Association: Grocery List Builder y Action Envelope
+Observación (profesor): Sería bueno describor un poco estas empresas y en lo posible alguna clasicación de ellas.
+
 
 C. Tema: ERP AbanQ
 1.- ¿Cuáles son los módulos de AbanQ? (indique una descripción)
@@ -117,12 +143,27 @@ Observación (profesor): ¿son experiencias nacionales? ¿hay alguna valoración
 
 D. Tema: GNUCASH
 1.- ¿Qué es XML? y ¿cómo lo usa (o implementa*) GNUCAHS?
+Respuesta:
+- XML es un subconjunto de SGML(Estándar Generalised Mark-up Language),simplificado y adaptado a Internet. XML es un meta-lenguaje que nos permite definir lenguajes de marcado que permite definir etiquetas personalizadas para descripción y organización de datos.
+-El mecanismo de almacenamiento principal de GnuCash es en archivo XML. GnuCash interpreta documentos XML utilizando una codificación de caracteres determinado por la configuración. GnuCash 1.9.0 y sus versiones posteriores escribe el documento XML siempre en codificación UTF-8(formato de codificación de caracteres) y también incluye la declaración de codificación apropiada en la declaración de texto XML de apertura.
+Obervación (profesor): La respuesta esta bien, fataría agregar un documento XML que use GnuCash. No es neecsario que sea completo, pero al menos una parte para que visualicen como es un documento XML.
+
 2.- ¿Qué es un protocolo? y ¿en que consiste el protocolo OFX?
+Respuesta:
+-Un protocolo es un conjunto de reglas establecidas por norma o por costumbre, secuencia detallada de un proceso de actuación científica, técnica, etc.
+-El protocolo Open Financial Exchange (OFX ) es un protocolo abierto para operaciones financieras en línea para el formato de datos SGML Y XML. Permite que los bancos se conecten directamente a sus clientes sin la necesidad de intermediarios. Incluye operaciones de declaraciones de descarga bancarias y tarjetas de crédito, transferencia de fondos, pagos, pago de facturas, etc. Es sólo para las transacciones que involucran equipos (no incluye teléfono). Se basa en un cliente / servidor de modelo de petición / respuesta donde las peticiones y las respuestas son archivos de texto, basada en SGML. La especificación OFX es sintácticamente similar al HTML, el uso de etiquetas para identificar y definir los datos. El uso de HTTP para conectarse a un servidor de OFX y el uso de comandos HTTP POST para enviar peticiones al servidor OFX.  El mensaje es la unidad de trabajo con el protocolo y se refiere a una solicitud de par requisito / respuesta. Un mensaje puede contener varias transacciones. Cada transacción tiene un sobre de estado que muestra el éxito o el fracaso de una solicitud. Todos los modelos de encriptación pública (tales como SSL y SET) ofrecen flexibilidad en las opciones de seguridad para las instituciones que implementan la OFX.
+
+Observación (profesor): Me parece más bien la respuesta, y como hablan de HTTP, pueden ver con mayor claidad en concepto.
+
+
 3.- ¿Para que sirve y qué características tiene el buscador BCash?
+Respuesta:
+El buscador del software sirve para encontrar información de las cuentas y transacciones. Para ingresar al buscador  debe ingresar a (Editar → Buscar.).  Tiene un filtro específico para desglosar la búsqueda por criterios (fecha, valor,  cuentas, todas  las cuentas, etc) y tipo de búsqueda (nueva búsqueda, refinar búsqueda actual, añadir o eliminar resultados a la búsqueda actual)
+
 4.- ¿En distintas instalaciones como se realiza una sincronización?
-
-
-
+Respeusta:
+GNUCash permite la sincronización para mantener una información común entre la versión de escritorio y la versión móvil.
+Para llevar la información desde Android a la versión escritorio, se puede exportar el archivo .ofx desde la visión general de cuentas (con el botón Menú). Para esto se recomienda exportarlo a alguna aplicación que tenga sincronización automática con PC (como Dropbox). Luego basta con importar el archivo .ofx desde GNUCash en PC desde Archivo->Importar-> Importar OFX/QFX
 
 
 
