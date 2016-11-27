@@ -202,8 +202,37 @@ Observación (profesor): Seria bueno saber los costos y tipos de consultoria que
 ---------------------------------------------------------------------
 F. Tema: OpenBravo
 1.- ¿Cuáles son los costos asociados a versiones Profesional y Enterprinse?
-2.- En que consiste ep principio Vista-Controlador, y como se relaciona este principio con la arquitectura de OpenBravo
+Respuesta:
+Suscripción Profesional y Enterprise  varía en un costo aproximado de entre 1.500€ a 2.000€ anual. ($1.000.000 a $1.400.000 pesos chilenos)
+
+Observación (profesor): ¿Cuál es la diferencia entre las versiones?
+
+2.- En que consiste el principio Vista-Controlador, y como se relaciona este principio con la arquitectura de OpenBravo
+Respuesta:
+Modelo-Vista-Controlador (MVC): Es una arquitectura para construir aplicaciones que separan el modelo de datos (modelo) de la interfaz de usuario (vista) y el procesamiento (controlador). 
+Se relaciona debido a que la arquitectura de Openbravo basado en Java se centra en dos modelos:
+• Ingeniería orientada a modelos, en la que los desarrolladores describen la aplicación en términos de modelos en lugar de código
+• Modelo vista controlador, un patrón de diseño bien establecido en la cual se mantienen la lógica de presentación y la lógica de negocios aislados.
+
+Comentario (profesor): 
+
 3.- Un ejemplo de "Esquema de Contabilidad"?
+Respuesta:
+Los esquemas de contabilidad tienen la misión de gestionar según parametizacion la contabilidad general.
+Tipo de monedas, el tipo de contabilidad (principios generalmente aceptados) , las tablas del sistema activadas o desactivadas a contabilizar.
+
+Comentario (profesor): Tipos de momenda, no hay comentario, pero "tipo de contabilidad", ¿puede dar algún(os) ejemplo(s)?, y ¿a qué tablas se refiere cuando indican que estas se activan o desactivan?
+
 4.- ¿Qué son "Datos Maestros" en OpenBravo? (¿qué otros tipos de datos hay?)
+Respuesta:
+-Fuente central de la información que contiene la información más importante referente a costos, productos, impuesto, proveedores y clientes.
+-Existes otros tipos como datos de almacén 
+
+Comentario (profesor): Respecto de la existencia de otros tipos de datos ¿puede ejemplificar?
+
 5.- ¿A qué tipo de PYMES es aplicable una solución de este tipo?
+Respuesta:
+Es aplicable a medianas y pequeñas empresas
+
+Comentario (profesor): Su respuesta es muy escueta, se supone que una cosa es indicar pequeña y mediana empresa, pero sería bueno indicar requisitos que deben cumplir, que no es un tema solo de disponer de HW/SW o bien de los recursos para adoptar/implementar un ERP. Aspectos como cultura organizacional, la estructura, etc. son también importantes.
 
