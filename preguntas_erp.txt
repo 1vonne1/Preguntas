@@ -62,7 +62,7 @@ Posee integración con sistemas de pago lo que facilita a la empresa poder reali
 Observación profesor: Esperaba una respeusta más completa, lo que indica se puede extender un poco más y abarcando otras aristas de e-Commenrce.
 
 
-3.- ¿Que tipo de HW necesita uan intalación y explotación de OfBiz?
+3.- ¿Que tipo de HW necesita una intalación y explotación de OfBiz?
 Respuesta:
 Sin respuesta aún :-(
 
@@ -75,33 +75,37 @@ Observación profesor:
 Un Framework (informática) es un entorno o ambiente de trabajo para desarrollo; dependiendo del lenguaje normalmente integra componentes que facilitan el desarrollo de aplicaciones como el soporte de programa, bibliotecas, plantillas y más. Típicamente, puede incluir soporte de programas, bibliotecas, y un lenguaje interpretado, entre otras herramientas, para así ayudar a desarrollar y unir los diferentes componentes de un proyecto. Ejemplos de framework son Struts, Django, etc.
 
 
-5.- Ejemplos de uso de OfBiz (empresas), y experiencias
+5.- Ejemplos de uso de OfBiz (empresas), y experiencias:
+
 Ejemplos:
 uniper Music, Soundesign, Messer Group, Steiner Sports, Silver Wings Plus Club, American Heart Association: Grocery List Builder y Action Envelope
+
 Observación (profesor): Sería bueno describor un poco estas empresas y en lo posible alguna clasicación de ellas.
+
+
 
 ---------------------------------------------------------------------
 C. Tema: ERP AbanQ
 1.- ¿Cuáles son los módulos de AbanQ? (indique una descripción)
 Repuesta: 
 Las principales funciones del sistema se dividen en módulos, los cuales se instalan sobre el programa básico. Actualmente el software cuenta con los siguientes módulos integrados:
-1.	Facturación: permite el funcionamiento de la empresa gestionando clientes, proveedores, stock de productos, emisión de facturas.
-2.	Gestión de tesorería: permite llevar una organizada estructura de todas las facturas y conocer el estado en que se encuentran y a quién corresponden rápidamente
-3.	Contabilidad financiera: Facilita el control de las finanzas, control de gastos, entrada y salida de dinero, además de emitir informes de facturas emitidas y recibidas. También es de utilidad para proporcionar las pérdidas o ganancias de las pymes en un periodo determinado.
-4.	Talleres de automoción: este módulo complementario está diseñado para la gestión de empresas dedicadas a la reparación, venta y mantenimiento de vehículos
-5.	Formación: permite proporcionar las relaciones jerárquicas entre empleados y permite un almacenamiento efectivo y una correcta administración de los datos del personal.
-6.	Terminal punto de venta: permite gestionar las ventas de la empresa, donde a los artículos se les asigna una tarifa, asociando la facturación de los distintos clientes y proporcionando distintas formas de pago.
-7.	Control de producción (MRP):  permite realizar un completo seguimiento a los procesos de fabricación de producción en series, además de proporcionar los costos asociados a la producción. 
-8.	Gestión de campaña y acciones clientes (CRM): gestiona todas las funcionalidades relacionadas con clientes y proveedores de la organización, de esta manera coordinar las relaciones con estos, proporcionando información de cada uno de los movimientos asociados.
-9.	Gestión de almacenes: Este módulo está relacionado con los temas de stocks, artículos, tarifas, transferencias y datos de compra. Es de suma utilidad para gestionar los movimientos de stocks en el almacén, relacionándose estrechamente con el módulo de facturación y con el de ventas.
-10.	Soporte para códigos de barras: permite la introducción y visualización gráfica de códigos de barras de los distintos productos de la empresa.
+1. Facturación: permite el funcionamiento de la empresa gestionando clientes, proveedores, stock de productos, emisión de facturas.
+2. Gestión de tesorería: permite llevar una organizada estructura de todas las facturas y conocer el estado en que se encuentran y a quién corresponden rápidamente
+3. Contabilidad financiera: Facilita el control de las finanzas, control de gastos, entrada y salida de dinero, además de emitir informes de facturas emitidas y recibidas. También es de utilidad para proporcionar las pérdidas o ganancias de las pymes en un periodo determinado.
+4. Talleres de automoción: este módulo complementario está diseñado para la gestión de empresas dedicadas a la reparación, venta y mantenimiento de vehículos
+5. Formación: permite proporcionar las relaciones jerárquicas entre empleados y permite un almacenamiento efectivo y una correcta administración de los datos del personal.
+6. Terminal punto de venta: permite gestionar las ventas de la empresa, donde a los artículos se les asigna una tarifa, asociando la facturación de los distintos clientes y proporcionando distintas formas de pago.
+7. Control de producción (MRP):  permite realizar un completo seguimiento a los procesos de fabricación de producción en series, además de proporcionar los costos asociados a la producción. 
+8. Gestión de campaña y acciones clientes (CRM): gestiona todas las funcionalidades relacionadas con clientes y proveedores de la organización, de esta manera coordinar las relaciones con estos, proporcionando información de cada uno de los movimientos asociados.
+9. Gestión de almacenes: Este módulo está relacionado con los temas de stocks, artículos, tarifas, transferencias y datos de compra. Es de suma utilidad para gestionar los movimientos de stocks en el almacén, relacionándose estrechamente con el módulo de facturación y con el de ventas.
+10. Soporte para códigos de barras: permite la introducción y visualización gráfica de códigos de barras de los distintos productos de la empresa.
 Cabe destacar que las dos áreas principales del software están disponibles de manera gratuita, estas son Facturación y Contabilidad Financiera.
 
 2.- Versiones disponibles de AbanQ. ¿Cuántas hay?, ¿Costos?
 Respuesta:
-•	Versión 2.2 se liberó en junio de 2007.
-•	Versión 2.3 se liberó en noviembre de 2008.
-•	Versión 2.4 se liberó en octubre de 2014.
+• Versión 2.2 se liberó en junio de 2007.
+• Versión 2.3 se liberó en noviembre de 2008.
+• Versión 2.4 se liberó en octubre de 2014.
 Descargar y utilizar libremente cada una de las versiones no tiene costo asociado.
 
 Observación (profesor): ¿Hay versiones en desarrollo que estén en status de beta?
@@ -114,24 +118,24 @@ Los costos asociados para la versión pagada son por módulos instalados que tie
 Respuesta:
 Se proponen los siguientes criterios para la elección de un motor de BD:
 1.	Entender los requerimientos actuales pero pensados en el futuro: Se debe entender los requerimientos funcionales y no funcionales y escoger la base de datos que mejor se ajuste a estos requerimientos. Los requerimientos pueden abarcar lo siguiente:
-•	Cantidad de datos y tipo de datos (texto, binarios, espacial u otros tipos específicos).
-•	Número simultaneo de usuarios.
-•	Disponibilidad: cuánto tiempo puede permitir tener de baja la base de datos.
-•	Escalabilidad: qué hará cuando la cantidad de datos y el número de usuarios aumente.
-•	Seguridad: cuanto necesitará de características como seguridad e encriptación de datos, administración de usuarios, privilegios.
-•	Manejo y administración: cuan amigable quiere que sea la administración de la BD.
-•	Que otras características quiere obtener de la BD.
+• Cantidad de datos y tipo de datos (texto, binarios, espacial u otros tipos específicos).
+• Número simultaneo de usuarios.
+• Disponibilidad: cuánto tiempo puede permitir tener de baja la base de datos.
+• Escalabilidad: qué hará cuando la cantidad de datos y el número de usuarios aumente.
+• Seguridad: cuanto necesitará de características como seguridad e encriptación de datos, administración de usuarios, privilegios.
+• Manejo y administración: cuan amigable quiere que sea la administración de la BD.
+• Que otras características quiere obtener de la BD.
 
-2.	Tomar en cuenta experiencias previas: Debe considerarse sus experiencias previas (si es que las posee) y las habilidades desarrolladas trabajando con bases de datos. Elegir una base de datos conocida en la cual se posee experiencia, reduce tiempo al no tener que familiarizarse nuevamente con la BD y también reduce costos en algunos casos como por ejemplo cuando se desea invertir en un curso para aprender el manejo de cierta BD.
+2. Tomar en cuenta experiencias previas: Debe considerarse sus experiencias previas (si es que las posee) y las habilidades desarrolladas trabajando con bases de datos. Elegir una base de datos conocida en la cual se posee experiencia, reduce tiempo al no tener que familiarizarse nuevamente con la BD y también reduce costos en algunos casos como por ejemplo cuando se desea invertir en un curso para aprender el manejo de cierta BD.
 
 
-3.	Considerar el valor del soporte y costos de licencia de cada base de datos.
+3. Considerar el valor del soporte y costos de licencia de cada base de datos.
 
-4.	Considerar los requisitos del sistema operativo, ya que algunos motores de base datos requieren sistemas operativos específicos.
+4. Considerar los requisitos del sistema operativo, ya que algunos motores de base datos requieren sistemas operativos específicos.
 	Se presentan las siguientes alternativas de motores de base de datos compatibles con el software:
-1.	PostgreSQL
-2.	MySQL
-3.	SQLite
+1. PostgreSQL
+2. MySQL
+3. SQLite
 
 Observación (profesor): ¿Para el caso de los motores hay algún criterio de elección de uno u otro?
 
@@ -162,7 +166,7 @@ Respuesta:
 El buscador del software sirve para encontrar información de las cuentas y transacciones. Para ingresar al buscador  debe ingresar a (Editar → Buscar.).  Tiene un filtro específico para desglosar la búsqueda por criterios (fecha, valor,  cuentas, todas  las cuentas, etc) y tipo de búsqueda (nueva búsqueda, refinar búsqueda actual, añadir o eliminar resultados a la búsqueda actual)
 
 4.- ¿En distintas instalaciones como se realiza una sincronización?
-Respeusta:
+Respuesta:
 GNUCash permite la sincronización para mantener una información común entre la versión de escritorio y la versión móvil.
 Para llevar la información desde Android a la versión escritorio, se puede exportar el archivo .ofx desde la visión general de cuentas (con el botón Menú). Para esto se recomienda exportarlo a alguna aplicación que tenga sincronización automática con PC (como Dropbox). Luego basta con importar el archivo .ofx desde GNUCash en PC desde Archivo->Importar-> Importar OFX/QFX
 
